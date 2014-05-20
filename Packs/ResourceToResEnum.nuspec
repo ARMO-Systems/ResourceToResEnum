@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>ResourceToResEnum</id>
+        <version>1.0.0</version>
+        <authors>Сборная солянка</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Синхронизация идентификаторов в ресурсах с ResManager</description>
+    </metadata>
+    <files>
+        <file src="..\Source\_output\Release\CommandLine.dll" target="tools\CommandLine.dll" />
+        <file src="..\Source\_output\Release\ResourceToResEnum.exe" target="tools\ResourceToResEnum.exe" />
+        <file src="..\Source\_output\Release\ResourceToResEnum.exe.config" target="tools\ResourceToResEnum.exe.config" />
+        <file src="..\Source\_output\Release\System.Interactive.dll" target="tools\System.Interactive.dll" />
+    </files>
+</package>
